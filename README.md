@@ -15,30 +15,7 @@ Mô phỏng trực quan quá trình giải quyết bài toán.
 
 ## 2. Cấu trúc thư mục dự án
 Dự án được thiết kế theo mô hình MVC để tách biệt rõ giữa logic, giao diện và dữ liệu:
----
-EightPuzzleMVC/
-├── EightPuzzleMVC/
-│   ├── main.py
-│   ├── main_2.py
-│   ├── README.md
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── controllers/
-│   │   │   ├── game_controller.py
-│   │   ├── models/
-│   │   │   ├── puzzle_game.py
-│   │   │   ├── puzzle_state.py
-│   │   │   ├── solvers/
-│   │   │   │   ├── local_search_solvers.py
-│   │   │   │   ├── rl_agents.py
-│   │   │   │   ├── search_solvers.py
-│   │   │   │   ├── solver_base.py
-│   │   ├── views/
-│   │   │   ├── pygame_view.py
-│   ├── data/
-│   │   ├── q_table_8puzzle.json
-│   │   ├── sarsa_q_table_8puzzle.json
----
+<pre lang="markdown"> ```plaintext EightPuzzleMVC/ ├── EightPuzzleMVC/ │ ├── main.py │ ├── main_2.py │ ├── README.md │ ├── app/ │ │ ├── __init__.py │ │ ├── controllers/ │ │ │ └── game_controller.py │ │ ├── models/ │ │ │ ├── puzzle_game.py │ │ │ ├── puzzle_state.py │ │ │ └── solvers/ │ │ │ ├── local_search_solvers.py │ │ │ ├── rl_agents.py │ │ │ ├── search_solvers.py │ │ │ └── solver_base.py │ │ ├── views/ │ │ │ └── pygame_view.py │ ├── data/ │ │ ├── q_table_8puzzle.json │ │ └── sarsa_q_table_8puzzle.json ``` </pre>
 
 ## 3. Các tính năng chính
 Giao diện đồ họa (GUI) sử dụng Pygame.
