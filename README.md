@@ -1,6 +1,7 @@
 # Báo cáo Đồ án: Giải quyết Bài toán 8-Puzzle bằng các Thuật toán Trí tuệ Nhân tạo
 
 # 1. Giới thiệu
+linkgithub : https://github.com/phantrongphu123/-individual_AI-_project
 ## 1.1. Bài toán 8-Puzzle
 8-Puzzle là một trò chơi xếp số kinh điển gồm một lưới 3x3 chứa 8 ô được đánh số từ 1 đến 8 và một ô trống. Mục tiêu là di chuyển các ô số để đạt được trạng thái đích (thường là các số được sắp xếp theo thứ tự). Đây là một bài toán tiêu biểu trong lĩnh vực Trí tuệ Nhân tạo, thường được sử dụng để nghiên cứu và đánh giá hiệu suất của các thuật toán tìm kiếm.
 
